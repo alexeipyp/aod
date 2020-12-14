@@ -27,8 +27,8 @@ public class App
             System.out.print(sortArray[i] + " ");
         System.out.println("\n");
 
-        int searchFor = 75;
-        int searchResult = BinarySearch.search(sortArray, searchFor, false);
+        int searchFor = 18;
+        int searchResult = BinarySearch.search(sortArray, searchFor, true);
 
         if (searchResult == -1)
             System.out.println("Число " + searchFor + " не найдено");
